@@ -1,0 +1,4 @@
+#Wed Apr 04 09:33:36 CEST 2018
+base.0=/Users/quentin/Documents/Cours_Android/ENI-SAINT-HERBLAIN/MP3/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

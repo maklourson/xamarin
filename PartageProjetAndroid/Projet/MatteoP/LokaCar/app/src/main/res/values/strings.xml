@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">LokaCar</string>
+
+    <!-- activity_main -->
+    <string name="main_menu_vehicles">Liste des véhicules</string>
+    <string name="main_menu_rentals">Historique des locations</string>
+    <string name="main_menu_turnover">Chiffre d\'affaires</string>
+
+    <!-- activity_vehicle_details -->
+    <string name="vehicle_details_plate_TextView">Plaque</string>
+    <string name="vehicle_details_brand_TextView">Marque</string>
+    <string name="vehicle_details_model_TextView">Modèle</string>
+    <string name="vehicle_details_color_TextView">Couleur</string>
+    <string name="vehicle_details_dailyCost_TextView">Prix/Jour</string>
+    <string name="vehicle_details_km_TextView">Kilométrage</string>
+    <string name="vehicle_details_km_TextView2">km</string>
+    <string name="vehicle_details_available">Le véhicule est disponible !</string>
+    <string name="vehicle_details_available_start_rental">Commencer la location</string>
+    <string name="vehicle_details_available_delete_vehicle">Supprimer le véhicule</string>
+    <string name="vehicle_details_unavailable">Le véhicule est indisponible</string>
+    <string name="vehicle_details_unavailable_end_rental">Terminer la location</string>
+    <string name="vehicle_details_unavailable_cost">Prix:</string>
+    <string name="vehicle_details_unavailable_currency">€</string>
+    
+    <!-- activity_vehicles_list_item -->
+    <string name="vehicles_list_item_goToDetails">=></string>
+
+    <!-- activity_start_rental -->
+    <string name="start_rental_vehicle">Véhicule</string>
+    <string name="start_rental_customer_firstname_TextView">Prénom</string>
+    <string name="start_rental_customer_lastname_TextView">Nom</string>
+    <string name="start_rental_customer_address_TextView">Adresse</string>
+    <string name="start_rental_customer_phone_TextView">Téléphone</string>
+    <string name="start_rental_start_rental">Commencer la location</string>
+    <string name="start_rental_cancel">Annuler</string>
+    <string name="start_rental_error_form">Tous les champs doivent être remplis !</string>
+    <string name="start_rental_error_pictures_max">Limité à 4 photos</string>
+
+    <!-- activity_end_rental -->
+    <string name="end_rental_duration">Durée de la location</string>
+    <string name="end_rental_dailyCost">Prix à la journée</string>
+    <string name="end_rental_totalCost">Prix total</string>
+    <string name="end_rental_end_rental">Terminer la location</string>
+    <string name="end_rental_cancel">Annuler</string>
+    <string name="end_rental_sms_greeting">Bonjour</string>
+    <string name="end_rental_sms_body">Voivi le récapitulatif de votre location</string>
+    <string name="end_rental_sms_vehicle">Véhicule</string>
+    <string name="end_rental_sms_duration">Durée de la location</string>
+    <string name="end_rental_sms_totalCost">Prix total</string>
+    <string name="end_rental_sms_bye">Bonne journée</string>
+
+    <!-- activity_rentals_history -->
+    <string name="rentals_history_none_textView">Aucune location en cours ou passée</string>
+    <string name="rentals_history_ongoing_textView">En cours</string>
+    <string name="rentals_history_ended_textView">Terminées</string>
+
+    <!-- activity_rentals_history_item -->
+    <string name="rentals_history_item_goToDetails">=></string>
+</resources>

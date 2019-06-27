@@ -1,0 +1,20 @@
+
+application en ligne:
+
+https://yuml.me/diagram/scruffy/class/draw
+
+
+
+## Agence - Gerant 
+[Agence|- nomAgence;- adresse; -lesVehicules; - chiffreAffaire;- unGerant]1-1[Gerant| - nom;- prenom;- motDePasse;- uneAgence; ], 
+
+ ## Vehicule - Agence, 
+[Vehicule|-numeroSerie; - immatriculation; - prixJour;- lesPhotosVehicule; - etatLocation; - leContratLocation;]-1..*[Agence],  
+
+## EtatDesLieux - Vehicule, [EtatDesLieux|- date; -description; -leVehicule; - lesPhotosEtatDesLieux]1-*[Vehicule],
+
+## ContratLocation - Vehicule, 
+[ContratLocation|- dateEnlevement; - dateRestitution; - leVehicule;  - leClient]*-1[Vehicule],
+
+##Client - ContratLocation
+[Client| - nom; - prenom; - adresse; - tel; - email; - lesContratsLocations]*-1[ContratLocation]

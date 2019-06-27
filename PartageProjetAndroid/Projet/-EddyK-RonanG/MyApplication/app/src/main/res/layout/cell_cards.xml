@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp">
+
+    <!-- Les CardView possèdent des attributs supplémentaires dont
+         - cardBackgroundColor
+         - cardElevation pour l'élévation (donc aussi l'ombre)
+         - cardCornerRadius pour arrondir les angles
+     -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Les CardView agissent comme des FrameLayout,
+         pour avoir une organisation verticale nous devons
+         donc rajouter un LinearLayout -->
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="8dp"
+            android:background="?android:selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:padding="20dp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/plaque_voiture"
+            tools:text="XXX" />
+
+        <TextView
+            android:id="@+id/prix_voiture"
+            android:layout_width="395dp"
+            android:layout_height="65dp"
+
+            android:background="?android:selectableItemBackground"
+            android:padding="20dp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="4dp"
+            tools:text="XXX" />
+
+        <TextView
+            android:id="@+id/plaque_voiture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+
+            android:background="?android:selectableItemBackground"
+            android:padding="20dp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/prix_voiture"
+            tools:layout_editor_absoluteX="8dp"
+            tools:text="XXX" />
+
+        <Button
+            android:id="@+id/louee"
+            android:layout_width="398dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="?android:selectableItemBackground"
+            android:padding="20dp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info"
+            tools:text="XXX" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

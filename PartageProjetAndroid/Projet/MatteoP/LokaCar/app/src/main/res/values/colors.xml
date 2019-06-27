@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#555555</color>
+    <color name="redish">#FF8888</color>
+
+    <color name="vehicleItemBackground">#E0E0E0</color>
+
+    <color name="availableVehicle">#88DD66</color>
+    <color name="availableVehiclePale">#CCFFAA</color>
+    <color name="unavailableVehicle">#DD4433</color>
+    <color name="unavailableVehiclePale">#FFAA88</color>
+
+    <color name="topDisplayPale">#DDFFDD</color>
+</resources>

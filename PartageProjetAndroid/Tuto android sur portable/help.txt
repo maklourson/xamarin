@@ -1,0 +1,9 @@
+Reboot le pc avec Shift + clic sur redemarrer.
+Parametres
+Entrée ou clic
+On attends d'avoir un écran bleu avec plein de trucs écrit. (après le choix du boot windows)
+F7
+Lancer adbdriver
+Il reconnait votre portable
+Cliquer sur installer
+C'est bon sur Android Studio !

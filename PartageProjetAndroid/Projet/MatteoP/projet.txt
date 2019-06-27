@@ -1,0 +1,36 @@
+Projet "Agence de location de véhicules"
+
+Page "Connexion":
+	- Connexion par MDP
+
+Page "Acceuil":
+	- Menu
+	- Chiffre d'affaires
+	- Déconnexion
+
+Page "Liste des véhicules":
+	- RecyclerView (items = infos du véhicule)
+	- Bouton "Ajouter un véhicule"
+
+Page "Détails du véhicule":
+	- Infos détaillées sur le véhicule
+	- Si le véhicule est disponible: bouton "Louer" et bouton "Supprimer"
+	- Si le véhicule est loué: bouton "Location terminée" (avec nom de la personne qui loue en dessous)
+
+Page "Commencer une location":
+	- Formulaire contenant les informations du locataire
+	- Possibilité d'ajouter des photos
+	- Bouton "Confirmer"
+	- Bouton "Annuler"
+
+Page "Terminer une location":
+	- Possibilité d'ajouter des photos post-location
+	- Aperçu du montant de la location
+	- Bouton "Confirmer" (envoi SMS)
+
+Page "Historique des locations":
+	- Liste des locations terminées et en cours
+
+Page "Détails de la location:
+	- Infos du locataire
+	- Photos pré-location et post-location
