@@ -1,0 +1,25 @@
+TP 4
+----
+MVVM + Properties Dictionary
+
+
+Documentation :
+---------------
+https://developer.xamarin.com/guides/xamarin-forms/creating-mobile-apps-xamarin-forms/summaries/chapter18/
+https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/application-class/#Properties_Dictionary
+
+
+Todo :
+---------------------------------
+Gestion de l'authentification à mon service de Banque :
+- Créer une classe UserBank (int IdCompte (format 123XXXXXXX), string Nom, string Prenom, string Email, string Mdp)
+	- L'IdCompte est sur 10 chiffres et commence par 123
+	- Le Mdp est un code PIN de 4 chiffres
+- Créer un formulaire d'authentification
+	- Pour le mot de passe, il faut que les numéros soient dans un ordre différent à chaque fois
+- Gérer l'authentification en utilisant MVVM
+- Lorsqu'il est connecté, l'utilisateur doit pouvoir se déconnecter pour plus de sécurité
+
+Bonus :
+- Si l'utilisateur a laissé l'application en arrière-plan plus de 10sec,
+	alors l'application lui impose de saisir son mot de passe de nouveau
