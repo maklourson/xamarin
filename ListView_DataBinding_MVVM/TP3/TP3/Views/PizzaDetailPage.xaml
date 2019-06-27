@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:TP3.ViewModels"
+             xmlns:converters="clr-namespace:TP3.Converters"
+             x:Class="TP3.Views.PizzaDetailPage"
+             Title="{Binding Nom}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:EstVegetarienToImageSourceConverter x:Key="estVegetarienConverter">
+            </converters:EstVegetarienToImageSourceConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <viewmodels:PizzaViewModel></viewmodels:PizzaViewModel>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{Binding EstVegetarien, Converter={StaticResource estVegetarienConverter}}"
+                   HorizontalOptions="Center"></Image>
+            <Label Text="{Binding Nom}"
+                   HorizontalOptions="Center"></Label>
+            <Label Text="{Binding Ingredients}"
+                   HorizontalOptions="Center"></Label>
+            <Label Text="{Binding Prix, StringFormat=' {0:C2}'}"
+                   HorizontalOptions="Center"></Label>
+            
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Label Text="Est végétarien ?"></Label>
+                <Switch IsToggled="{Binding EstVegetarien}"></Switch>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

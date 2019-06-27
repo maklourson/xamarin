@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TP2"
+             xmlns:converters="clr-namespace:TP2.Converters"
+             x:Class="TP2.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ColorToLabelConverter x:Key="colorToLabelConverter"></converters:ColorToLabelConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <StackLayout>
+        <BoxView x:Name="boxView" HorizontalOptions="FillAndExpand" HeightRequest="300"></BoxView>
+        
+        <Label BindingContext="{Reference boxView}"
+               HorizontalOptions="CenterAndExpand"
+               Text="{Binding Color, Converter={StaticResource colorToLabelConverter}}"></Label>
+        
+        <Slider x:Name="sliderR" ValueChanged="Slider_ValueChanged"></Slider>
+        <Slider x:Name="sliderG" ValueChanged="Slider_ValueChanged"></Slider>
+        <Slider x:Name="sliderB" ValueChanged="Slider_ValueChanged"></Slider>
+    </StackLayout>
+
+</ContentPage>

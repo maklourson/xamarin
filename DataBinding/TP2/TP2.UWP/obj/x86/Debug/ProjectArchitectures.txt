@@ -1,0 +1,1 @@
+C:\Partage\TPs\Corriges\TP2\TP2.UWP\TP2.UWP.csproj;x86

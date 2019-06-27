@@ -1,0 +1,12 @@
+C:\Partage\TPs\Corriges\TP2\TP2\bin\Debug\netstandard2.0\TP2.deps.json
+C:\Partage\TPs\Corriges\TP2\TP2\bin\Debug\netstandard2.0\TP2.dll
+C:\Partage\TPs\Corriges\TP2\TP2\bin\Debug\netstandard2.0\TP2.pdb
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\TP2.csprojAssemblyReference.cache
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\TP2.csproj.CoreCompileInputs.cache
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\TP2.AssemblyInfoInputs.cache
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\TP2.AssemblyInfo.cs
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\TP2.dll
+C:\Partage\TPs\Corriges\TP2\TP2\obj\Debug\netstandard2.0\TP2.pdb

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:TP3.ViewModels"
+             xmlns:converters="clr-namespace:TP3.Converters"
+             x:Class="TP3.Views.PizzeriaPage"
+             Title="Pizzeria">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:EstVegetarienToImageSourceConverter x:Key="estVegetarienConverter">
+            </converters:EstVegetarienToImageSourceConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <viewmodels:PizzeriaViewModel></viewmodels:PizzeriaViewModel>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Pizzas}" HasUnevenRows="True" ItemTapped="ListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" Orientation="Horizontal">
+
+                                <Image VerticalOptions="CenterAndExpand"
+                                       Source="{Binding EstVegetarien, Converter={StaticResource estVegetarienConverter}}"></Image>
+
+                                <StackLayout>
+                                    <Label Text="{Binding Nom}" FontAttributes="Bold"></Label>
+                                    <Label Text="{Binding Ingredients}" FontSize="Micro"></Label>
+                                </StackLayout>
+
+                                <Label Text="{Binding Prix, StringFormat=' {0:C2}'}"
+                                       VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="EndAndExpand"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

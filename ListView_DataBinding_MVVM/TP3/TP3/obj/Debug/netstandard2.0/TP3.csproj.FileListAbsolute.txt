@@ -1,0 +1,13 @@
+C:\Partage\TPs\Corriges\TP3\TP3\bin\Debug\netstandard2.0\TP3.deps.json
+C:\Partage\TPs\Corriges\TP3\TP3\bin\Debug\netstandard2.0\TP3.dll
+C:\Partage\TPs\Corriges\TP3\TP3\bin\Debug\netstandard2.0\TP3.pdb
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\TP3.csprojAssemblyReference.cache
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\Views\PizzeriaPage.xaml.g.cs
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\TP3.csproj.CoreCompileInputs.cache
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\TP3.AssemblyInfoInputs.cache
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\TP3.AssemblyInfo.cs
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\TP3.dll
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\TP3.pdb
+C:\Partage\TPs\Corriges\TP3\TP3\obj\Debug\netstandard2.0\Views\PizzaDetailPage.xaml.g.cs
